@@ -17,6 +17,9 @@
 ;; Sane indentation
 (setq ruby-deep-indent-paren nil)
 
+;; do not insert encoding comment
+(setq ruby-insert-encoding-magic-comment nil)
+
 ;; Ruby shell binding
 (define-key prelude-mode-map (kbd "C-c R r") 'inf-ruby)
 
